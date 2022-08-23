@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  
+  <title>Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="数据解析官方提供的测试数据包含&#x3D;&#x3D;FD001&#x3D;&#x3D;的风电数据以及&#x3D;&#x3D;GF001&#x3D;&#x3D;的光伏数据，将在次数进行基础的展示与分析 FD001&#x3D;&#x3D;FD001&#x3D;&#x3D;中包含BasicInfo, Historical Wind Power, Historical Weather Informati">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hexo">
+<meta property="og:url" content="http://example.com/2022/08/10/%E7%AB%9E%E8%B5%9B/%E5%8D%97%E7%BD%91-%E9%A3%8E%E5%85%89%E5%87%BA%E5%8A%9B%E9%A2%84%E6%B5%8B/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="数据解析官方提供的测试数据包含&#x3D;&#x3D;FD001&#x3D;&#x3D;的风电数据以及&#x3D;&#x3D;GF001&#x3D;&#x3D;的光伏数据，将在次数进行基础的展示与分析 FD001&#x3D;&#x3D;FD001&#x3D;&#x3D;中包含BasicInfo, Historical Wind Power, Historical Weather Informati">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2022-08-10T07:19:00.747Z">
+<meta property="article:modified_time" content="2022-08-15T15:08:44.941Z">
+<meta property="article:author" content="John Doe">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/favicon.png">
+  
+  
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-source-code-pro@0.0.71/index.min.css">
+
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+    
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
+
+  
+<meta name="generator" content="Hexo 6.2.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main"><article id="post-竞赛/南网-风光出力预测" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2022/08/10/%E7%AB%9E%E8%B5%9B/%E5%8D%97%E7%BD%91-%E9%A3%8E%E5%85%89%E5%87%BA%E5%8A%9B%E9%A2%84%E6%B5%8B/" class="article-date">
+  <time class="dt-published" datetime="2022-08-10T07:19:00.747Z" itemprop="datePublished">2022-08-10</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h1 id="数据解析"><a href="#数据解析" class="headerlink" title="数据解析"></a>数据解析</h1><p>官方提供的测试数据包含&#x3D;&#x3D;FD001&#x3D;&#x3D;的风电数据以及&#x3D;&#x3D;GF001&#x3D;&#x3D;的光伏数据，将在次数进行基础的展示与分析</p>
+<h2 id="FD001"><a href="#FD001" class="headerlink" title="FD001"></a>FD001</h2><p>&#x3D;&#x3D;FD001&#x3D;&#x3D;中包含<em>BasicInfo, Historical Wind Power, Historical Weather Information</em> 与 <em>Forecast Weather Information</em>.其解析将在下节分别阐述</p>
+<h3 id="Historical-Wind-Power"><a href="#Historical-Wind-Power" class="headerlink" title="Historical Wind Power"></a>Historical Wind Power</h3><ul>
+<li>数据持续时间：<strong>2022-07-15 00:00:00 ~ 2022-07-21 23:45:00</strong>，步长<strong>15min</strong></li>
+<li>基础信息:<ul>
+<li>count: 672.000000</li>
+<li>mean: 3.710794</li>
+<li>std: 3.638163</li>
+<li>min: 0.011400</li>
+<li>25%: 0.655450</li>
+<li>50%: 2.428400</li>
+<li>75%: 6.543700</li>
+<li>max: 14.473900</li>
+</ul>
+</li>
+<li>图片：![[Pasted image 20220810153955.png]]</li>
+<li>使用KDE进行的分布拟合：![[Pasted image 20220810154106.png]]</li>
+<li>自回归分析：![[Pasted image 20220810154313.png]]</li>
+<li>Dickey-Fuller Test:  p-value: 0.053696，即5%的概率接受其存在单位根, 也就是说数据并不平稳。</li>
+</ul>
+<h3 id="Historical-Weather-Data"><a href="#Historical-Weather-Data" class="headerlink" title="Historical Weather Data"></a>Historical Weather Data</h3><ul>
+<li>持续时间：同上</li>
+<li>包含信息：<ul>
+<li>风速：10&#x2F;30&#x2F;50&#x2F;70&#x2F;90&#x2F;100M</li>
+<li>风向：70&#x2F;90&#x2F;100</li>
+<li>温度</li>
+<li>压力</li>
+<li>湿度</li>
+</ul>
+</li>
+<li>图片：![[Pasted image 20220810160616.png]]</li>
+</ul>
+<h1 id="风电预测-风机模型方法"><a href="#风电预测-风机模型方法" class="headerlink" title="风电预测 - 风机模型方法"></a>风电预测 - 风机模型方法</h1><p>有别于利用数值算法在时序模型角度预测，在本文中希望采用历史数据估计模型参数的方式找到合理的风机参数值，从而达到预测的效果。对于风机来说，考虑能量效率$C_p$的风机-风速模型如下所示：<br>$$<br>P&#x3D;\frac{1}{2}C_p \rho A v^3<br>$$<br>假设风机半径为$r$，则上式可写为<br>$$<br>P&#x3D;\frac{1}{2}\rho\pi\times C_pr^2v^3<br>$$<br>其中，$\rho\pi$为常数，在此用$C_{w}&#x3D;\frac{1}{2}\rho\pi$。另外，考虑到不同高度的风速均会对$v$值产生影响，设$\pmb{w}&#x3D;[w_{10},w_{30},w_{50},w_{70},w_{90},w_{100}]$，$\pmb{v}&#x3D;[v_{10},v_{30},v_{50},v_{70},v_{90}]$。由于问题中的风机轮毂高度为65m，该点的风速$v_{65}$由下式获得：<br>$$<br>v_{65}&#x3D;\pmb{w}\pmb{v}^T<br>$$<br>再上式中再引入风向对输出功率的影响，以正北方（正南风）为0度，以$\beta$表示风机朝向，以$\alpha$表示风向，可以建立如下矩阵：<br>$$<br>W_{\text{ang}}&#x3D;\begin{bmatrix}<br>\cos(\alpha_{30}-\beta)&amp;0&amp;0&amp;0&amp;0&amp;0\<br>0&amp;\cos(\alpha_{30}-\beta)&amp;0&amp;0&amp;0&amp;0\<br>0&amp;0&amp;\cos(\alpha_{30}-\beta)&amp;0&amp;0&amp;0\<br>0&amp;0&amp;0&amp;\cos(\alpha_{30}-\beta)&amp;0&amp;0\<br>0&amp;0&amp;0&amp;0&amp;\cos(\alpha_{30}-\beta)&amp;0\<br>0&amp;0&amp;0&amp;0&amp;0&amp;\cos(\alpha_{30}-\beta)\<br>\end{bmatrix}<br>$$<br>如此一来，加入风向修正后的风速估计为:<br>$$<br>v_{65}&#x3D;\pmb{w}W_{\text{ang}}\pmb{v}^T<br>$$<br>考虑给定的672组数据，以MSE为目标函数，可以建立如下的优化问题：<br>$$<br>\begin{gather}<br>\min &amp;\sum_{i&#x3D;1}^{672}(P_{\text{e}}^i-P_t^i)^2\tag{1}\<br>\text{s.t.}&amp;P_e^i&#x3D;C_wC_pr^2v_i^3\<br>&amp;C_w&#x3D;\frac{1}{2}\rho\pi\<br>&amp;v_i&#x3D;\sum_{j&#x3D;1}^6 w_j \cdot\cos(\alpha^i_j-\beta)\cdot v^i_j<br>\end{gather}<br>$$</p>
+<h1 id="模型调试一："><a href="#模型调试一：" class="headerlink" title="模型调试一："></a>模型调试一：</h1><ol>
+<li>由于优化器报错-暂未考虑$C_p$</li>
+</ol>
+<h1 id="风机模型预测修正"><a href="#风机模型预测修正" class="headerlink" title="风机模型预测修正"></a>风机模型预测修正</h1><blockquote>
+<p>在实际实验中发现，将其视为一个优化问题，采用模型进行估计的方法具有一定的可行度，但是<em>对数据的要求较高，模型极有可能无法拟合</em>。因此，打算采取一些思路对数据进行处理，现有思路有二：</p>
+</blockquote>
+<h2 id="思路一：风速数据降维"><a href="#思路一：风速数据降维" class="headerlink" title="思路一：风速数据降维"></a>思路一：风速数据降维</h2><p>[[#风电预测 - 风机模型方法]]中所定义模型的计算复杂度与构建的矩阵息息相关，<strong>可考虑将该处的六维数据降维成二维，从而降低模型的计算复杂度。（在此考虑PCA等方法）</strong></p>
+<h2 id="思路二：提取重点数据"><a href="#思路二：提取重点数据" class="headerlink" title="思路二：提取重点数据"></a>思路二：提取重点数据</h2><p>该思路则是为了解决数据量过大的问题，由于其中的一些数据可能会完全相悖（误差数据、异常天气等），考虑提取数据中的重点拟合上述模型，该方法具体有二：</p>
+<ol>
+<li>使用SVR对数据进行拟合，并导出支持向量，该方法较为依赖SVM的设计，否则产出的支持向量效果预计会奇差无比。</li>
+<li>使用聚类方法对数据进行聚类，并使用聚类中心作为有效数据进行拟合。</li>
+</ol>
+<h2 id="思路一的验证"><a href="#思路一的验证" class="headerlink" title="思路一的验证"></a>思路一的验证</h2><h2 id="思路二的验证"><a href="#思路二的验证" class="headerlink" title="思路二的验证"></a>思路二的验证</h2>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2022/08/10/%E7%AB%9E%E8%B5%9B/%E5%8D%97%E7%BD%91-%E9%A3%8E%E5%85%89%E5%87%BA%E5%8A%9B%E9%A2%84%E6%B5%8B/" data-id="cl76ayufd0001cgu9h22mc2r4" data-title="" class="article-share-link">Share</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2022/08/17/%E6%AF%95%E4%B8%9A%E8%AE%BA%E6%96%87/S1-%E9%A3%8E%E5%85%89%E6%A6%82%E7%8E%87%E9%A2%84%E6%B5%8B/%E9%A3%8E%E5%85%89%E5%87%BA%E5%8A%9B%E6%A6%82%E7%8E%87%E9%A2%84%E6%B5%8B_%E5%86%B2%E7%AA%81%E6%96%87%E4%BB%B6_HSY_20220817183933/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          (no title)
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2022/08/09/FedLearn%20-%20ICML%202022/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title"></div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/08/">August 2022</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2022/08/22/IELTS/Listening/Chapter-III-Test-I/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2022/08/22/IELTS/Listening/Chacpter-III-FirstTime/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2022/08/20/IELTS/Oral/%E6%9C%AA%E5%91%BD%E5%90%8D/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2022/08/17/%E6%AF%95%E4%B8%9A%E8%AE%BA%E6%96%87/S3-%E5%A4%9A%E5%BE%AE%E7%BD%91%E8%81%94%E9%82%A6%E5%AD%A6%E4%B9%A0/%E5%BA%94%E7%94%A8%E5%A4%8F%E6%99%AE%E5%88%A9%E5%80%BC%E7%9A%84%E8%81%94%E9%82%A6%E8%B4%A1%E7%8C%AE%E5%BA%A6%E5%88%86%E9%85%8D/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2022/08/17/%E6%AF%95%E4%B8%9A%E8%AE%BA%E6%96%87/S1-%E9%A3%8E%E5%85%89%E6%A6%82%E7%8E%87%E9%A2%84%E6%B5%8B/%E9%A3%8E%E5%85%89%E5%87%BA%E5%8A%9B%E6%A6%82%E7%8E%87%E9%A2%84%E6%B5%8B/">(no title)</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      
+      &copy; 2022 John Doe<br>
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+
+<script src="/js/jquery-3.4.1.min.js"></script>
+
+
+
+  
+<script src="/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+
+  </div>
+</body>
+</html>
